@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
 </head>
 <body>
-    <header> The Great Race!</header>
-    <div class="container-fluid" id="race">
-        <div class="background">
-            <img src="lothriccastle.jpg" alt="Lothric Castle">
-        </div>
-        <div class="redgreen">
-            <img src="greenskullbutton.png" alt="Green Skull">
-            <img src="redskullbutton.png" alt="Red Skull">
+    <div class="container-fluid">
+        <div style="position: fixed; left: 0px; top: 0px; bottom: 0px">
+            <img src="images/lothriccastle.jpg" alt="Lothric Castle">
         </div>
     </div>
+    <div class="redgreen" id="button">
+        <div style="position: absolute; left: 160px; top: 80px;">
+            <img src="images/redskullbutton.png" alt="Red Skull">
+        </div>
+    </div>
+    <div class="stalfos1" id="racer1">
+        <div style="position: absolute; right: 50px; bottom: 5px;">
+            <img src="images/standingstalfos.png" alt="Standing Stalfos" height="256" width="256">
+        </div>
+    </div>
+    <div class="stalfos2" id="racer2">
+        <div style="position: absolute; right: 45px; bottom: 5px;">
+            <img src="images/standingstalfos.png" alt="Standing Stalfos" height="256" width="256">
+        </div>
+    </div>
+    <script>href="https://unpkg.com/vue@2.5.2/dist/vue.js"</script>
+    <script>index.js</script>
 </body>
 </html>
