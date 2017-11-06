@@ -1,5 +1,3 @@
-var data = {
-
 var timer= null;
 //(function(){
 //    new Vue({
@@ -10,9 +8,9 @@ var timer= null;
 function move()
 {
     document.getElementByID('racer1').style.right =
-    parseInt(document.getElementById('racer1').style.right) + 10 + 'px';
+    parseInt(document.getElementById('racer1').style.right) + 1000 + 'px';
     document.getElementByID('racer2').style.right =
-    parseInt(document.getElementById('racer2').style.right) + 10 + 'px';
+    parseInt(document.getElementById('racer2').style.right) + 1000 + 'px';
 }
 window.onload = function()
 {
